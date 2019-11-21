@@ -7,7 +7,7 @@ from qiskit.visualization import *
 # Loading your IBM Q account(s)
 provider = IBMQ.load_account()
 
-secretnumber='110011'#random number, you can inset in any number here for the program to guess
+secretnumber='110011'#random number, you can insert in any number here for the program to guess
 
 circuit= QuantumCircuit(6+1,6)
 circuit.h([0,1,2,3,4,5])#applying haadamard gates to qubits 0 to 5
